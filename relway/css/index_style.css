@@ -1,0 +1,449 @@
+
+body
+{ 
+    padding: 0;
+    margin: 0;
+font-family: "segoe ui light";
+    overflow-x: hidden;
+}
+
+.navbar
+{
+    padding: 30px;
+    background-color: transparent;
+    border-bottom: 0.5px solid gray;
+    color: white;
+    
+}
+
+nav  li a
+{
+    color: white;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: white;
+}
+.navbar-light .navbar-brand
+{
+    
+    
+    color: white;
+    
+}
+
+
+.welcome-area
+{
+        height: 700px;
+
+}
+
+.hambozo
+{
+    padding: 50px 20px;
+    background-color: aquamarine;
+    font-size: 10px;
+    border-radius: 5%;
+    position: absolute;
+    left: 0;
+}
+.hambozo1
+{
+    padding: 50px 20px;
+    background-color: aquamarine;
+    font-size: 10px;
+    border-radius: 5%;
+    position: absolute;
+    right: 0;
+}
+
+.meter > span {
+    padding-left: 20px;
+  display: block;
+  
+    margin: auto;
+  
+  background-color: #2a80b9;
+  width: 40%;
+}
+
+.meter > span:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  
+  overflow: hidden;
+}
+*
+
+
+{
+    transition: all 1s;
+    padding: 0;
+    margin: 0;
+}
+
+
+.carousel-caption
+{
+    top : 110px;
+}
+.carousel-caption h2
+{
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 60px;
+}
+.carousel-caption p
+{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.carousel-item .hi
+{
+    height: 100%;
+}
+.carousel-item
+{
+    height: 700px;
+}
+#About .test
+{
+   padding: 10px;
+}
+.test .op
+{
+    border: 1px solid #eee;
+    
+
+    text-align: center;
+    
+}
+.test .op i
+{
+        background: #2a80b9 none repeat scroll 0 0;
+    padding: 17px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+   
+}
+.test .op h4
+{
+     color: #292929;
+    font-size: 18px;
+   width: 100%;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.test .op p
+{
+    font-family: 'Raleway', sans-serif;
+    color: #636363;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+   
+
+#About h3
+{
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #292929;
+    margin: 0px;
+        font-size: 36px;
+    padding-bottom: 20px;
+
+}
+#About p
+{
+    
+    font-weight: 400;
+    padding-bottom: 40px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    color: #636363;
+    font-size: 15px;
+}
+#About
+{
+    padding-bottom: 70px;
+}
+#pop
+{
+    background: #f7f7f7 none repeat scroll 0 0;
+}
+#pop .lol
+{
+    border-right: 1px solid gray
+        
+}
+#pop .lol h3
+{
+    color: #232323;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#pop .lol h2
+{
+    color: #232323;
+    font-size: 50px;
+    margin-bottom: 10px;
+        font-weight: 200;
+    letter-spacing: 0px;
+    color: #292929;
+    margin: 0px;
+}
+
+#team
+{
+    background-color: antiquewhite;
+}
+
+ figure
+{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+   
+    
+}
+
+.owl-item figcaption 
+{
+     background-color: rgba(0 ,0 ,0 , 0.8);
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+   
+   
+}
+.owl-item figcaption h4
+{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    right: 120%;
+    text-transform: uppercase;
+    transition: all 0.3s ;
+    transition-delay: 1s;
+    margin-top: 0;
+    position: relative;
+   
+    
+    
+}
+.owl-item figcaption h3{
+    
+    
+
+font-size: 16px;
+    
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 500;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #fff;
+    left: 120%;
+    transition-delay: 2.5s;
+    padding-bottom: 30px;
+}
+
+.owl-item figcaption ul li 
+{
+    
+   display: inline;
+    padding: 10px ;
+    transition-delay: 2.5s;
+    font-size: 15px;
+    
+   
+}
+.owl-item figcaption ul li i 
+{
+    color: white;
+    position: relative;
+    bottom: 180%;
+}
+
+ figure:hover  h4
+{
+    right: 0;
+}
+figure:hover h3
+{
+    left: 0;
+}
+figure:hover  i
+{
+    bottom: 0;
+}
+figure:hover figcaption
+{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+
+#WORKS ul li
+{
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4px;
+    margin: 0 8px;
+    cursor: pointer;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin: 0 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: #938d8d;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-bottom: 2px solid transparent;
+}
+
+
+#photos
+{
+    width: 100%;
+    margin: 50px 0;
+   
+}
+#photos .photo
+{
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+    
+    
+}
+#photos .img-responsive
+{
+    width: 100%;
+}
+ .col-md-4 ,  .col-sm-6
+{
+    padding-left: 0;
+    padding-right: 0;
+    
+    
+}
+#photos .innerframe
+{
+    background-color: rgba(255 , 255 , 255 , 0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.9;
+}
+
+#photos .innerframe p
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    padding: 0;
+    font-weight: 600;
+    margin: 5px 0px;
+    color: #000;
+}
+
+#photos .innerframe h2
+{
+    margin-top: 20%;
+    opacity: 1;
+    bottom: 120%;
+    position: relative;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    -webkit-transition: .6s;
+    transition: .6s;
+    transition-delay: 1s;
+    display: inline-block;
+    color: #2a80b9;
+
+    
+}
+
+#photos img
+{
+    transition: 0.3s;
+}
+
+#photos .photo:hover .innerframe
+{
+    opacity: 1;
+    top: 0;
+}
+#photos .photo:hover  h2
+{
+    bottom: 0;
+}
+#photos .photo:hover  img
+{
+    transform: scale(1.2 , 1.2);
+}
+
+#clients
+{
+    background-image: url(../Img/parallax-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.popx
+{
+    background-color: rgba(255 , 255 , 255 , 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
